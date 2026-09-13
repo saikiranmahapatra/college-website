@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Bharata Pati Mahavidylay Samantiyapalli</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <nav class="top-navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <i class="fas fa-graduation-cap"></i>
+                <span>Sri Bharata Pati Mahavidylay</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#faculty" class="nav-link">Faculty</a></li>
+                <li><a href="#students" class="nav-link">Students</a></li>
+                <li><a href="#courses" class="nav-link">Courses</a></li>
+                <li><a href="#holidays" class="nav-link">Holidays</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Side Navigation Bar -->
+    <div class="sidebar">
+        <div class="sidebar-close">
+            <i class="fas fa-times"></i>
+        </div>
+        <ul class="sidebar-menu">
+            <li><a href="#home" class="sidebar-link">Home</a></li>
+            <li><a href="#faculty" class="sidebar-link">Faculty</a></li>
+            <li><a href="#students" class="sidebar-link">Students</a></li>
+            <li><a href="#courses" class="sidebar-link">Courses</a></li>
+            <li><a href="#holidays" class="sidebar-link">Holidays</a></li>
+            <li><a href="#contact" class="sidebar-link">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section with Background -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="college-name animate-fade-in">Sri Bharata Pati Mahavidylay</h1>
+            <p class="college-subtitle animate-fade-in">Samantiyapalli</p>
+            <p class="college-tagline animate-fade-in">Excellence in Education • Innovation in Learning</p>
+        </div>
+    </section>
+
+    <!-- Faculty Section -->
+    <section id="faculty" class="faculty-section">
+        <div class="container">
+            <h2 class="section-title">Our Faculty</h2>
+            <div class="faculty-container" id="facultyContainer">
+                <!-- Faculty cards will be loaded here via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Students Section -->
+    <section id="students" class="students-section">
+        <div class="container">
+            <h2 class="section-title">Student Portal</h2>
+            <div class="students-content">
+                <div class="search-box">
+                    <input type="text" id="studentSearch" placeholder="Search by Roll No or Name...">
+                    <button class="btn-primary">Search</button>
+                </div>
+                <div class="students-container" id="studentsContainer">
+                    <!-- Student cards will be loaded here via JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses-section">
+        <div class="container">
+            <h2 class="section-title">Available Courses</h2>
+            <div class="courses-container" id="coursesContainer">
+                <!-- Course cards will be loaded here via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Holidays Section -->
+    <section id="holidays" class="holidays-section">
+        <div class="container">
+            <h2 class="section-title">Holiday Calendar</h2>
+            <div class="holidays-container">
+                <div class="holidays-table-wrapper">
+                    <table class="holidays-table" id="holidaysTable">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Holiday Name</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody id="holidaysBody">
+                            <!-- Holiday rows will be loaded here via JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Address</h3>
+                        <p>Samantiyapalli, Odisha</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p>+91 (0) 754-XXXXXXX</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>info@sbmsamantiyapalli.edu.in</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Sri Bharata Pati Mahavidylay Samantiyapalli. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
